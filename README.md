@@ -1,2 +1,0 @@
-# TnPProject
-Created with CodeSandbox
