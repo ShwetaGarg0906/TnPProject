@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <student-dash-board></student-dash-board>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+//import CompanyComponent from "./components/CompanyComponent";
+import StudentDashBoardVue from "./components/StudentDashBoard.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    "student-dash-board": StudentDashBoardVue
   }
 };
 </script>
@@ -23,6 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
+  position: relative;
 }
 </style>
